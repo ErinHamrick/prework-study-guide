@@ -16,7 +16,7 @@ footer {
 
 #footer {
     padding-top: 75px;
-    background-color: blue;
+    background-color: #4E4340;
     color: white;
 }
 
@@ -33,6 +33,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
 ul {
     padding-left: 40px;
     font-size: 20px;
@@ -41,13 +42,10 @@ ul {
 p {
     text-align: center;
     font-size: 30px;
-<<<<<<< HEAD
 }
 .card {
     width: 80%;
     margin: 40px auto;
     border: 5px solid gray;
     box-shadow: 5px 10px #4E4340;
-=======
->>>>>>> f4bf10c633930d2e21fdf621e8b10d59222486a9
 }
