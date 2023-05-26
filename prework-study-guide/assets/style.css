@@ -16,6 +16,8 @@ footer {
 
 #footer {
     padding-top: 75px;
+    background-color: blue;
+    color: white;
 }
 
 h1,
@@ -23,7 +25,7 @@ h2 {
     text-align: center;
     padding: 15px;
     }
-
+    
 img {
     display: block;
     height: 50px;
@@ -39,10 +41,13 @@ ul {
 p {
     text-align: center;
     font-size: 30px;
+<<<<<<< HEAD
 }
 .card {
     width: 80%;
     margin: 40px auto;
     border: 5px solid gray;
     box-shadow: 5px 10px #4E4340;
+=======
+>>>>>>> f4bf10c633930d2e21fdf621e8b10d59222486a9
 }
