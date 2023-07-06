@@ -4,6 +4,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
 header, 
 footer {
     width: 100%;
@@ -30,8 +36,7 @@ img {
     display: block;
     height: 75px;
     width: 90px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 ul {
@@ -48,4 +53,5 @@ p {
     margin: 40px auto;
     border: 5px solid gray;
     box-shadow: 5px 10px #4E4340;
+    border-radius: 5px;
 }
