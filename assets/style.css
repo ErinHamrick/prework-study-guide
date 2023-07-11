@@ -4,6 +4,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-color: #C6CEC9;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -29,6 +33,7 @@ header {
 
 h1,
 h2 {
+    color: #C6CEC9;
     text-align: center;
     padding: 15px;
     }
@@ -43,6 +48,7 @@ img {
 ul {
     padding-left: 40px;
     font-size: 20px;
+    margin-bottom: 4%;
 }
 
 p {
@@ -54,5 +60,13 @@ p {
     margin: 40px auto;
     border: 5px solid gray;
     box-shadow: 5px 10px #4E4340;
-    border-radius: 5px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width) {
+    h1, h2 {
+        max-height: 250px;
+        padding: 20px;
+    }
+    
 }
